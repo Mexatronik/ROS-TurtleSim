@@ -13,7 +13,7 @@ Create a ros package, build and compile created package (I added rospy and std_m
 
 Instructions on how to create a package: http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 
-run the program Linux in terminal with ./mce312.sh
+run the program in Linux terminal with ./mce312.sh
 
 -------------------------------------
 
