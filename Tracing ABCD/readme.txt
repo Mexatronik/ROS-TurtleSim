@@ -19,12 +19,12 @@ run the program Linux in terminal with ./mce312.sh
 
 bash script 
 
-if you are using latest ubuntu change '-e' to '--' in order to execute a command 
+if you are using latest ubuntu, change '-e' to '--' in order to execute a command 
 for example: 
 
-gnome-terminal -e "rosrun turtlesim letterA.py" is on ubuntu 16.04
+gnome-terminal -e "rosrun turtlesim letterA.py" ==> is on ubuntu 16.04
 
-gnome-terminal -- rosrun turtlesim letterA.py  is on ubuntu 20.04 
+gnome-terminal -- rosrun turtlesim letterA.py  ==> is on ubuntu 20.04 
 
 ---------------------------------------
 
