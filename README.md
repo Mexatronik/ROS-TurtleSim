@@ -1,7 +1,7 @@
 # ROS-TurtleSim
 
 
-I use TurtleSim to practice ROS communications such as Publish/Subscribe.
+I use TurtleSim to practice ROS communications such as Publisher/Subscriber.
 Therefore, algorithms are under constant development.
 
 
