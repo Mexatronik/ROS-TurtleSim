@@ -1,6 +1,6 @@
 ROS distribution used: "ROS-Kinetic" on Ubuntu 16.04 
 You can use ROS Melodic or ROS Noetic
-ROS Noetic is RECOMENDED since its EOL is May, 2025
+ROS Noetic is RECOMMENDED since its EOL is May, 2025
 Lsit of ROS Distributions:  http://wiki.ros.org/Distributions
 
 ------------------------------------
