@@ -3,6 +3,11 @@ You can use ROS Melodic or ROS Noetic
 ROS Noetic is RECOMENDED since its EOL is May, 2025
 Lsit of ROS Distributions:  http://wiki.ros.org/Distributions
 
+------------------------------------
+
+move.py contains class WritingTurtle
+
+all other python programs import WritingTurtle from move module 
 
 -------------------------------------
 
