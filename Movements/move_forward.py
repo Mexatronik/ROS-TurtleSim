@@ -6,13 +6,12 @@ from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
 from std_msgs.msg import String
 
-# -----------------------------------------
 
 def get_pose_info(info):
     current_position.x = info.x
     current_position.y = info.y
     current_position.theta = info.theta
-#---------------------------------------------------------------------
+
 
 def get_initial_position():
 	initial_position = 0
@@ -21,10 +20,11 @@ def get_initial_position():
 		initial_position = current_position.x
 		rate.sleep()
 	return initial_position
-#----------------------------------------------------------------------		 
+		 
 
 def move_forward(distance):
-	print('The initial position is:', round(get_initial_position(), 1))
+	print('Turtle needs to move {} units forward in X direction'.format(distance))
+	print('The initial X position is:', round(get_initial_position(), 1))
 	desired_position = (get_initial_position() + distance)
 	while not rospy.is_shutdown():
 		goal = abs(current_position.x - desired_position)
@@ -37,10 +37,10 @@ def move_forward(distance):
 			pub.publish(vel)
 			break
 		rate.sleep()
-	print('Final position: ', round(current_position.x, 1))	
-#----------------------------------------------------------------------
-		
-		
+	print('The final X position is : ', round(current_position.x, 1))	
+
+
+
 	
 if __name__ == '__main__':
     try:
@@ -51,7 +51,7 @@ if __name__ == '__main__':
         rate = rospy.Rate(100)
 
         move_forward(2.5)
-        
+
         
 
     except rospy.ROSInterruptException:
