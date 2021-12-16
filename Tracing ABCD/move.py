@@ -260,14 +260,6 @@ class WritingTurtle:
 		self.rotate_left(359)
 
 
-	def end(self):
-		print('-' * 50)
-		print('VAUGHN COLLEGE OF AERONAUTICS AND TECHNOLOGY')
-		print('MCE310: Fundamentals of Mechatronic Engineering')
-		print('Final Project: Robot Operating System')
-		print('Prepared by: Alina Santander Vinokurova and Almaz Abdrasulov')
-		print('-' * 30)
-
 #===================================================================================
 
 
