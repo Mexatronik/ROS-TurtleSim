@@ -9,6 +9,12 @@ move.py contains class WritingTurtle
 
 all other python programs import WritingTurtle from move module 
 
+Create a ros package, build and compile created package (I added rospy and std_msgs dependencies)
+
+Instructions on how to create a package: http://wiki.ros.org/ROS/Tutorials/CreatingPackage
+
+run the program Linux in terminal with ./mce312.sh
+
 -------------------------------------
 
 bash script 
