@@ -5,7 +5,7 @@ List of ROS Distributions:  http://wiki.ros.org/Distributions
 
 ------------------------------------
 
-move.py contains class WritingTurtle
+'move.py' contains class WritingTurtle
 
 all other python programs import WritingTurtle from move module 
 
@@ -13,7 +13,7 @@ Create a ros package, build and compile created package (I added rospy and std_m
 
 Instructions on how to create a package: http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 
-run the program in Linux terminal with ./mce312.sh
+run the program in Linux terminal with "./mce312.sh"
 
 -------------------------------------
 
