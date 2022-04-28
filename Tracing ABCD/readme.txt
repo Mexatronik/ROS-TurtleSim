@@ -17,7 +17,7 @@ run the program in Linux terminal with ./mce312.sh
 
 -------------------------------------
 
-bash script 
+bash script (Ubuntu 16.04)
 
 if you are using latest ubuntu, change '-e' to '--' in order to execute a command 
 for example: 
